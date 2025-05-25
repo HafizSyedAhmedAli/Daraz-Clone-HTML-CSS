@@ -1,0 +1,102 @@
+.slider {
+  width: 988px;
+  height: 344px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  animation: slide 93s infinite;
+}
+
+.slides img {
+  flex: 0 0 100%;
+  width: 100%;
+ }
+
+@keyframes slide {
+  /* Slide 1 hold */
+  0%      { transform: translateX(0%); }
+  5.376%  { transform: translateX(0%); }
+
+  /* → Slide 2 */
+  5.376%  { transform: translateX(0%); }
+  5.914%  { transform: translateX(-100%); }
+  11.290% { transform: translateX(-100%); }
+
+  /* → Slide 3 */
+  11.290% { transform: translateX(-100%); }
+  11.828% { transform: translateX(-200%); }
+  17.204% { transform: translateX(-200%); }
+
+  /* → Slide 4 */
+  17.204% { transform: translateX(-200%); }
+  17.742% { transform: translateX(-300%); }
+  23.118% { transform: translateX(-300%); }
+
+  /* → Slide 5 */
+  23.118% { transform: translateX(-300%); }
+  23.656% { transform: translateX(-400%); }
+  29.032% { transform: translateX(-400%); }
+
+  /* → Slide 6 */
+  29.032% { transform: translateX(-400%); }
+  29.57%  { transform: translateX(-500%); }
+  34.946% { transform: translateX(-500%); }
+
+  /* → Slide 7 */
+  34.946% { transform: translateX(-500%); }
+  35.484% { transform: translateX(-600%); }
+  40.86%  { transform: translateX(-600%); }
+
+  /* → Slide 8 */
+  40.86%  { transform: translateX(-600%); }
+  41.398% { transform: translateX(-700%); }
+  46.774% { transform: translateX(-700%); }
+
+  /* → Slide 9 */
+  46.774% { transform: translateX(-700%); }
+  47.312% { transform: translateX(-800%); }
+  52.688% { transform: translateX(-800%); }
+
+  /* → Slide 10 */
+  52.688% { transform: translateX(-800%); }
+  53.226% { transform: translateX(-900%); }
+  58.602% { transform: translateX(-900%); }
+
+  /* → Slide 11 */
+  58.602% { transform: translateX(-900%); }
+  59.14%  { transform: translateX(-1000%); }
+  64.516% { transform: translateX(-1000%); }
+
+  /* → Slide 12 */
+  64.516% { transform: translateX(-1000%); }
+  65.054% { transform: translateX(-1100%); }
+  70.43%  { transform: translateX(-1100%); }
+
+  /* → Slide 13 */
+  70.43%  { transform: translateX(-1100%); }
+  70.968% { transform: translateX(-1200%); }
+  76.344% { transform: translateX(-1200%); }
+
+  /* → Slide 14 */
+  76.344% { transform: translateX(-1200%); }
+  76.882% { transform: translateX(-1300%); }
+  82.258% { transform: translateX(-1300%); }
+
+  /* → Slide 15 */
+  82.258% { transform: translateX(-1300%); }
+  82.796% { transform: translateX(-1400%); }
+  88.172% { transform: translateX(-1400%); }
+
+  /* → Slide 16 */
+  88.172% { transform: translateX(-1400%); }
+  88.71%  { transform: translateX(-1500%); }
+  94.086% { transform: translateX(-1500%); }
+
+  /* → Slide 17 */
+  94.086% { transform: translateX(-1500%); }
+  94.624% { transform: translateX(-1600%); }
+  100%    { transform: translateX(-1600%); }
+}
