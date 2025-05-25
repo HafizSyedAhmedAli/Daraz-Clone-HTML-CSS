@@ -39,7 +39,7 @@ A frontend clone of Daraz.pk, Pakistan’s leading online shopping platform. Thi
 
 ## Demo
 
-> **Live Preview**: *( https://HafizSyedAhmedAli.github.io/Daraz-Clone-HTML-CSS/)*  
+> **Live Preview**: *(https://hafizsyedahmedali.github.io/Daraz-Clone-HTML-CSS/)*  
 > Otherwise, open `index.html` locally in your browser.
 
 ---
